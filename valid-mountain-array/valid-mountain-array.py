@@ -5,12 +5,10 @@ class Solution:
         i = 0
         while i < len(arr) - 1 and arr[i] < arr[i + 1]:
             i += 1
-        print(i)
         if i == 0 or i == len(arr) - 1:
             return False
         while i < len(arr) - 1 and arr[i] > arr[i + 1]:
             i += 1
-        print(i)
         return i == len(arr) - 1 
                 
         
